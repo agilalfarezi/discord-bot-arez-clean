@@ -1,0 +1,686 @@
+{
+  "rate": 95,
+  "games": {
+    "fish_it": {
+      "name": "Fish IT",
+      "gamepasses": {
+        "rod_frozen": {
+          "name": "Rod Frozen Krampus",
+          "robux": 899
+        },
+        "jetski": {
+          "name": "Frozen Jetski",
+          "robux": 449
+        },
+        "vip": {
+          "name": "Vip + Luck",
+          "robux": 445
+        },
+        "mutation_plus": {
+          "name": "+Mutations",
+          "robux": 295
+        },
+        "advanced_luck": {
+          "name": "Advanced Luck",
+          "robux": 545
+        },
+        "extra_luck": {
+          "name": "Extra Luck",
+          "robux": 245
+        },
+        "double_xp": {
+          "name": "Double XP",
+          "robux": 195
+        },
+        "mini_hover": {
+          "name": "Mini HoverBoat",
+          "robux": 225
+        },
+        "sell_anywhere": {
+          "name": "Sell Anywhere",
+          "robux": 315
+        },
+        "small_luck": {
+          "name": "Small Luck",
+          "robux": 50
+        },
+        "hyper_boat": {
+          "name": "Hyper Boat Pack",
+          "robux": 999
+        },
+        "1x_crate_christmas": {
+          "name": "1x Crate Christmas",
+          "robux": 249
+        },
+        "1x_crate_elderwood": {
+          "name": "1x Crate ElderWood",
+          "robux": 99
+        },
+        "1x_crate_luxury": {
+          "name": "1x Crate Luxury",
+          "robux": 99
+        },
+        "x2_boost": {
+          "name": "X2 Boost Luck Server",
+          "robux": 99
+        },
+        "x4_boost": {
+          "name": "X4 Boost Luck Server",
+          "robux": 495
+        },
+        "x8_boost_6jam": {
+          "name": "X8 Boost Luck Server 6 jam",
+          "robux": 1287
+        },
+        "x8_boost_12jam": {
+          "name": "X8 Boost Luck Server 12 jam",
+          "robux": 1881
+        },
+        "x8_boost": {
+          "name": "X8 Boost Luck Server 24 jam",
+          "robux": 3069
+        }
+      }
+    },
+    "the_forge": {
+      "name": "The Forge",
+      "gamepasses": {
+        "essentials_pack": {
+          "name": "Essentials Pack",
+          "robux": 149
+        },
+        "fast_forge": {
+          "name": "Fast Forge",
+          "robux": 299
+        },
+        "forge_anywhere": {
+          "name": "Forge Anywhere",
+          "robux": 549
+        },
+        "sell_anywhere": {
+          "name": "Sell Anywhere",
+          "robux": 349
+        },
+        "supporter": {
+          "name": "Supporter",
+          "robux": 379
+        },
+        "better_forge": {
+          "name": "Better Forge",
+          "robux": 449
+        },
+        "double_storage": {
+          "name": "Double Storage",
+          "robux": 249
+        },
+        "1x_reroll": {
+          "name": "1 Reroll",
+          "robux": 75
+        },
+        "5x_reroll": {
+          "name": "5 Rerolls",
+          "robux": 300
+        },
+        "10x_reroll": {
+          "name": "10 Rerolls",
+          "robux": 575
+        }
+      }
+    },
+    "sols_rng": {
+      "name": "Sol's RNG",
+      "gamepasses": {
+        "quick_roll": {
+          "name": "Quick Roll",
+          "robux": 100
+        },
+        "vip": {
+          "name": "Vip",
+          "robux": 249
+        },
+        "starter_pack": {
+          "name": "Starter Pack",
+          "robux": 49
+        },
+        "invisible_gear": {
+          "name": "Invisible Gear",
+          "robux": 80
+        },
+        "vip_plus": {
+          "name": "Vip+",
+          "robux": 350
+        },
+        "merchant_teleporter": {
+          "name": "Merchant Teleporter",
+          "robux": 40
+        }
+      }
+    },
+    "cdid": {
+      "name": "Car Driving Indonesia",
+      "gamepasses": {
+        "rare_imports": {
+          "name": "Rare Imports",
+          "robux": 189
+        },
+        "2x_additional": {
+          "name": "2x Additional Ownable Car",
+          "robux": 269
+        },
+        "emergency_vehicle": {
+          "name": "Emergency Vehicle",
+          "robux": 139
+        },
+        "2x_paycheck": {
+          "name": "2x Paycheck",
+          "robux": 399
+        },
+        "retro_pass": {
+          "name": "Retro Pass",
+          "robux": 169
+        },
+        "advanced_modification": {
+          "name": "Advanced Modification",
+          "robux": 249
+        },
+        "luxury_car": {
+          "name": "Luxury Car",
+          "robux": 259
+        },
+        "luxury_house": {
+          "name": "Luxury House",
+          "robux": 79
+        },
+        "50_jobearning": {
+          "name": "+50% Job Earning",
+          "robux": 399
+        },
+        "additional_ownablecar": {
+          "name": "Additional Ownable Car",
+          "robux": 99
+        }
+      }
+    },
+    "prospecting": {
+      "name": "Prospecting",
+      "gamepasses": {
+        "sell_anywhere": {
+          "name": "Sell Anywhere",
+          "robux": 299
+        },
+        "crafter_luck": {
+          "name": "Crafter luck",
+          "robux": 299
+        },
+        "2x_shards": {
+          "name": "2x Shards",
+          "robux": 599
+        },
+        "more_ring_slots": {
+          "name": "More Ring Slots",
+          "robux": 575
+        },
+        "1000_shards": {
+          "name": "1000 Shards",
+          "robux": 599
+        },
+        "4000_shards": {
+          "name": "4000 Shards",
+          "robux": 1699
+        },
+        "100k_money": {
+          "name": "100K Money",
+          "robux": 99
+        },
+        "500k_money": {
+          "name": "500K Money",
+          "robux": 299
+        },
+        "2m_money": {
+          "name": "2M Money",
+          "robux": 999
+        }
+      }
+    },
+    "the_strongest_battlegrounds": {
+      "name": "The Strongest BattleGrounds (TSB)",
+      "gamepasses": {
+        "early_access": {
+          "name": "Early Access",
+          "robux": 299
+        },
+        "private_server": {
+          "name": "Private Server",
+          "robux": 299
+        },
+        "extra_emote_slots": {
+          "name": "Extra Emote Slots",
+          "robux": 99
+        },
+        "kill_sound": {
+          "name": "Kill Sound",
+          "robux": 199
+        },
+        "vip": {
+          "name": "Vip",
+          "robux": 299
+        },
+        "esp": {
+          "name": "Emote Second Page",
+          "robux": 99
+        },
+        "awakening_outfit": {
+          "name": "Awakening Outfit",
+          "robux": 99
+        },
+        "1_emotes": {
+          "name": "1 Emotes",
+          "robux": 25
+        },
+        "5_emotes": {
+          "name": "5 Emotes",
+          "robux": 125
+        },
+        "10_emotes": {
+          "name": "10 Emotes",
+          "robux": 250
+        },
+        "1_spin": {
+          "name": "1 Spin",
+          "robux": 79
+        },
+        "3_spin": {
+          "name": "3 Spin Cosmetics",
+          "robux": 237
+        },
+        "5_spin": {
+          "name": "5 Spin Cosmetics",
+          "robux": 395
+        },
+        "eternal_seal": {
+          "name": "Eternal Seal",
+          "robux": 99
+        }
+      }
+    },
+    "sab": {
+      "name": "Steal a Brainrot",
+      "gamepasses": {
+        "blackhole": {
+          "name": "Blackhole Slap",
+          "robux": 199
+        },
+        "flying_carpet": {
+          "name": "Flying Carpet",
+          "robux": 375
+        },
+        "laser_gun": {
+          "name": "Laser Gun",
+          "robux": 749
+        },
+        "ban_hammer": {
+          "name": "Ban Hammer",
+          "robux": 1499
+        },
+        "vip": {
+          "name": "VIP",
+          "robux": 399
+        },
+        "2x_money": {
+          "name": "2x Money",
+          "robux": 299
+        }
+      }
+    },
+    "tower_defense": {
+      "name": "Tower Defense",
+      "gamepasses": {
+        "adminmode": {
+          "name": "Admin Mode",
+          "robux": 7999
+        },
+        "vip_pass": {
+          "name": "V.I.P Pass",
+          "robux": 300
+        },
+        "custom_music": {
+          "name": "Custom Music",
+          "robux": 110
+        },
+        "meme_emote": {
+          "name": "Meme Emotes",
+          "robux": 70
+        },
+        "rezise_your_player": {
+          "name": "Rezise Your Player",
+          "robux": 70
+        },
+        "vigilante_bundle": {
+          "name": "Vigilante Bundle",
+          "robux": 370
+        },
+        "pirate_skin_bundle": {
+          "name": "Pirate Skin Bundle",
+          "robux": 450
+        },
+        "gatling_gun": {
+          "name": "Gatling Gun",
+          "robux": 2599
+        },
+        "mercenary_base": {
+          "name": "Mercenary Base",
+          "robux": 1800
+        },
+        "crook_boss": {
+          "name": "Crook Boss",
+          "robux": 300
+        },
+        "turret": {
+          "name": "Turret",
+          "robux": 450
+        },
+        "mortar": {
+          "name": "Mortar",
+          "robux": 395
+        },
+        "pursuit": {
+          "name": "Pursuit",
+          "robux": 1500
+        },
+        "warden": {
+          "name": "Warden",
+          "robux": 600
+        },
+        "cowboy": {
+          "name": "Cowboy",
+          "robux": 1800
+        },
+        "engineer": {
+          "name": "Engineer",
+          "robux": 2250
+        },
+        "sledger": {
+          "name": "Sledger",
+          "robux": 749
+        },
+        "hacker": {
+          "name": "Hacker",
+          "robux": 2999
+        }
+      }
+    },
+    "blox_burg": {
+      "name": "Blox Burg",
+      "gamepasses": {
+        "basement": {
+          "name": "Basement",
+          "robux": 100
+        },
+        "marvelous": {
+          "name": "Marvelous",
+          "robux": 180
+        },
+        "advanced_placing": {
+          "name": "Advanced Placing",
+          "robux": 200
+        },
+        "large_plot": {
+          "name": "Large Plot",
+          "robux": 250
+        },
+        "multiple_floors": {
+          "name": "Multiple Floors",
+          "robux": 300
+        },
+        "exellent_employee": {
+          "name": "Exellent Employee",
+          "robux": 300
+        },
+        "premium": {
+          "name": "Premium",
+          "robux": 400
+        },
+        "transform_plus": {
+          "name": "Transform Plus",
+          "robux": 600
+        },
+        "50_blockbux": {
+          "name": "50 Blockbux",
+          "robux": 15
+        },
+        "250_blockbux": {
+          "name": "250 Blockbux",
+          "robux": 70
+        },
+        "500_blockbux": {
+          "name": "500 Blockbux",
+          "robux": 120
+        },
+        "2500_blockbux": {
+          "name": "2500 Blockbux",
+          "robux": 525
+        },
+        "5000_blockbux": {
+          "name": "5000 Blockbux",
+          "robux": 975
+        },
+        "25000_blockbux": {
+          "name": "25000 Blockbux",
+          "robux": 4500
+        }
+      }
+    },
+    "dds": {
+      "name": "Drag Drive Simulator",
+      "gamepasses": {
+        "exclusive_rims": {
+          "name": "Exclusive Rims",
+          "robux": 69
+        },
+        "suspension_pro": {
+          "name": "Suspension Pro",
+          "robux": 29
+        },
+        "police_pass": {
+          "name": "Police Pass",
+          "robux": 149
+        },
+        "custom_plate_pass": {
+          "name": "Custom Plate Pass",
+          "robux": 39
+        },
+        "advance_paint_pass": {
+          "name": "Advance Paint Pass",
+          "robux": 59
+        },
+        "2x_paycheck": {
+          "name": "2x Paycheck",
+          "robux": 499
+        },
+        "luxury_pass": {
+          "name": "Luxury Pass",
+          "robux": 119
+        },
+        "dragspec_pass": {
+          "name": "Dragspec Pass",
+          "robux": 99
+        },
+        "boombox_radio": {
+          "name": "Boombox Radio",
+          "robux": 19
+        }
+      }
+    },
+    "afs": {
+      "name": "Anime Fighting Simulator: Endless",
+      "gamepasses": {
+        "x2_durability": {
+          "name": "x2 Durability",
+          "robux": 199
+        },
+        "x2_yen": {
+          "name": "x2 Yen",
+          "robux": 249
+        },
+        "x2_chakra": {
+          "name": "x2 Chakra",
+          "robux": 199
+        },
+        "faster_flight": {
+          "name": "Faster Flight",
+          "robux": 149
+        },
+        "x2_strength": {
+          "name": "x2 Strength",
+          "robux": 199
+        },
+        "vip": {
+          "name": "VIP",
+          "robux": 299
+        },
+        "x2_sword_skill": {
+          "name": "x2 Sword Skill",
+          "robux": 199
+        },
+        "x4_gacha_speed": {
+          "name": "x4 Gacha Speed",
+          "robux": 99
+        },
+        "no_limit": {
+          "name": "No Limit",
+          "robux": 749
+        },
+        "x2_speed": {
+          "name": "x2 Speed",
+          "robux": 99
+        },
+        "conceal_power": {
+          "name": "Conceal Power",
+          "robux": 199
+        },
+        "x2_agility": {
+          "name": "x2 Agility",
+          "robux": 99
+        },
+        "x2_chikara": {
+          "name": "x2 Chikara",
+          "robux": 249
+        },
+        "x2_tokens": {
+          "name": "x2 Tokens",
+          "robux": 249
+        },
+        "half_cooldown": {
+          "name": "Half Cooldown",
+          "robux": 249
+        },
+        "chakra_healing": {
+          "name": "Chakra Healing",
+          "robux": 199
+        }
+      }
+    },
+    "fisch": {
+      "name": "Fisch",
+      "gamepasses": {
+        "sell_anywhere": {
+          "name": "Sell Anywhere",
+          "robux": 399
+        },
+        "bobber_pack": {
+          "name": "Bobber Pack",
+          "robux": 99
+        },
+        "double_xp": {
+          "name": "Double XP",
+          "robux": 239
+        },
+        "appraisers_luck": {
+          "name": "Appraisers Luck",
+          "robux": 299
+        },
+        "supporter": {
+          "name": "Supporter",
+          "robux": 169
+        },
+        "emote_pack": {
+          "name": "Emote Pack",
+          "robux": 99
+        },
+        "radio": {
+          "name": "Radio",
+          "robux": 149
+        },
+        "appraise_anywhere": {
+          "name": "Appraise Anywhere",
+          "robux": 499
+        },
+        "spawn_boat_anywhere": {
+          "name": "Spawn Boat Anywhere",
+          "robux": 299
+        },
+        "enchant_anywhere": {
+          "name": "Enchant Anywhere",
+          "robux": 239
+        }
+      }
+    },
+    "ea": {
+      "name": "Expedition Antarctica",
+      "gamepasses": {
+        "search_and_rescue": {
+          "name": "Search & Rescue",
+          "robux": 545
+        },
+        "elite_pack": {
+          "name": "Elite Pack",
+          "robux": 395
+        },
+        "extra_stamina": {
+          "name": "Extra Stamina",
+          "robux": 99
+        },
+        "pro_pack": {
+          "name": "Pro Pack",
+          "robux": 295
+        },
+        "guide": {
+          "name": "Guide",
+          "robux": 195
+        },
+        "health_bottle": {
+          "name": "Health Bottle",
+          "robux": 125
+        },
+        "vip": {
+          "name": "VIP",
+          "robux": 695
+        },
+        "flags": {
+          "name": "Flags",
+          "robux": 40
+        },
+        "storm_goggles": {
+          "name": "Storm Goggles",
+          "robux": 99
+        },
+        "flashlight": {
+          "name": "Flashlight",
+          "robux": 70
+        },
+        "luxury_pack": {
+          "name": "Luxury Pack",
+          "robux": 345
+        },
+        "music_backpack": {
+          "name": "Music Backpack",
+          "robux": 345
+        },
+        "backpack_colours": {
+          "name": "Backpack Colours",
+          "robux": 50
+        }
+      }
+    }
+  }
+}
