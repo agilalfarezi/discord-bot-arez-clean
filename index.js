@@ -267,6 +267,11 @@ client.on("interactionCreate", async (interaction) => {
   // ===================================================
   if (!interaction.isChatInputCommand()) return;
 
+  // 🔹 HANDLE STATUS_TOKO
+  if (interaction.commandName === "status_toko") {
+    return handleStatusSlash(interaction);
+  }
+
   const transactions = loadTransactions();
 
   // ==================
