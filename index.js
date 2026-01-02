@@ -235,8 +235,21 @@ client.on("messageCreate", async (message) => {
     message.reply({ embeds: [embed] });
   }
   // 🔹 !status (BUYER)
-  if (content === "!status") {
-    handleStatusCommand(message); // ⬅️ dari status_toko.js
+  if (message.content.toLowerCase() === "!status") {
+    const data = JSON.parse(
+      fs.readFileSync("./status_toko/status.json", "utf8")
+    );
+
+    const isOpen = data.status === "OPEN";
+
+    const embed = new EmbedBuilder()
+      .setTitle("🏪 STATUS TOKO")
+      .setDescription(
+        isOpen ? "🟢 **TOKO SEDANG BUKA**" : "🔴 **TOKO SEDANG TUTUP**"
+      )
+      .setColor(isOpen ? "#00FF00" : "#FF0000");
+
+    return message.reply({ embeds: [embed] });
   }
 });
 

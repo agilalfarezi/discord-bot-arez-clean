@@ -1,4 +1,4 @@
-import { SlashCommandBuilder, PermissionFlagsBits } from "discord.js";
+import { SlashCommandBuilder, PermissionFlagsBits, EmbedBuilder } from "discord.js";
 import fs from "fs";
 import path from "path";
 
@@ -15,6 +15,9 @@ function saveStatus(data) {
   fs.writeFileSync(statusFile, JSON.stringify(data, null, 2));
 }
 
+// ==========================
+// SLASH COMMAND
+// ==========================
 export const statusCommand = new SlashCommandBuilder()
   .setName("status_toko")
   .setDescription("Ubah status toko (admin only)")
@@ -30,15 +33,36 @@ export const statusCommand = new SlashCommandBuilder()
   )
   .setDefaultMemberPermissions(PermissionFlagsBits.Administrator);
 
-export async function handleStatusCommand(interaction) {
+// ==========================
+// HANDLER ADMIN
+// ==========================
+export async function handleStatusSlash(interaction) {
   const status = interaction.options.getString("status");
 
-  const data = loadStatus();
-  data.status = status;
-  saveStatus(data);
+  saveStatus({ status });
 
   await interaction.reply({
     content: `✅ Status toko diubah menjadi **${status}**`,
     ephemeral: true,
   });
+}
+
+// ==========================
+// HANDLER BUYER
+// ==========================
+export function handleStatusMessage(message) {
+  const { status } = loadStatus();
+
+  const isOpen = status === "OPEN";
+
+  const embed = new EmbedBuilder()
+    .setTitle("🏪 STATUS TOKO")
+    .setDescription(
+      isOpen
+        ? "🟢 **TOKO SEDANG BUKA**\nSilakan order 🚀"
+        : "🔴 **TOKO SEDANG TUTUP**\nMohon tunggu ya 🙏"
+    )
+    .setColor(isOpen ? "#00FF88" : "#FF4444");
+
+  message.reply({ embeds: [embed] });
 }
