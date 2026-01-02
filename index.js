@@ -119,9 +119,6 @@ function saveStock(stock) {
 const commands = [
   ...priceCommandsList,
 
-  // Untuk Set status Toko
-  statusCommand,
-
   // 🟢 Tambah transaksi
   new SlashCommandBuilder()
     .setName("add_transaksi")
