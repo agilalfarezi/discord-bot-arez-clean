@@ -191,7 +191,7 @@ const commands = [
 // ===================================================
 // 🚀 DEPLOY SLASH COMMANDS
 // ===================================================
-const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
+const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
 
 (async () => {
   try {
@@ -568,4 +568,4 @@ client.once("ready", () => {
   }, 60 * 1000); // cek tiap 1 menit
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
