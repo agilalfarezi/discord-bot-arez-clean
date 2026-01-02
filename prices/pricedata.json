@@ -1,84 +1,103 @@
 {
-  "rate": 95,
+  "rate": 90,
   "games": {
     "fish_it": {
       "name": "Fish IT",
       "gamepasses": {
         "rod_frozen": {
           "name": "Rod Frozen Krampus",
-          "robux": 899
+          "robux": 899,
+          "category": "Gamepass"
         },
         "jetski": {
           "name": "Frozen Jetski",
-          "robux": 449
+          "robux": 449,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "Vip + Luck",
-          "robux": 445
+          "robux": 445,
+          "category": "Gamepass"
         },
         "mutation_plus": {
           "name": "+Mutations",
-          "robux": 295
+          "robux": 295,
+          "category": "Gamepass"
         },
         "advanced_luck": {
           "name": "Advanced Luck",
-          "robux": 545
+          "robux": 545,
+          "category": "Gamepass"
         },
         "extra_luck": {
           "name": "Extra Luck",
-          "robux": 245
+          "robux": 245,
+          "category": "Gamepass"
         },
         "double_xp": {
           "name": "Double XP",
-          "robux": 195
+          "robux": 195,
+          "category": "Gamepass"
         },
         "mini_hover": {
           "name": "Mini HoverBoat",
-          "robux": 225
+          "robux": 225,
+          "category": "Gamepass"
         },
         "sell_anywhere": {
           "name": "Sell Anywhere",
-          "robux": 315
+          "robux": 315,
+          "category": "Gamepass"
         },
         "small_luck": {
           "name": "Small Luck",
-          "robux": 50
+          "robux": 50,
+          "category": "Gamepass"
         },
         "hyper_boat": {
           "name": "Hyper Boat Pack",
-          "robux": 999
+          "robux": 999,
+          "category": "Gamepass"
         },
         "1x_crate_christmas": {
           "name": "1x Crate Christmas",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "1x_crate_elderwood": {
           "name": "1x Crate ElderWood",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "1x_crate_luxury": {
           "name": "1x Crate Luxury",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "x2_boost": {
           "name": "X2 Boost Luck Server",
-          "robux": 99
+          "robux": 99,
+          "category": "Boost"
         },
         "x4_boost": {
           "name": "X4 Boost Luck Server",
-          "robux": 495
+          "robux": 495,
+          "category": "Boost"
         },
         "x8_boost_6jam": {
           "name": "X8 Boost Luck Server 6 jam",
-          "robux": 1287
+          "robux": 1287,
+          "category": "Boost"
         },
         "x8_boost_12jam": {
           "name": "X8 Boost Luck Server 12 jam",
-          "robux": 1881
+          "robux": 1881,
+          "category": "Boost"
         },
         "x8_boost": {
           "name": "X8 Boost Luck Server 24 jam",
-          "robux": 3069
+          "robux": 3069,
+          "category": "Boost"
         }
       }
     },
@@ -87,43 +106,53 @@
       "gamepasses": {
         "essentials_pack": {
           "name": "Essentials Pack",
-          "robux": 149
+          "robux": 149,
+          "category": "Gamepass"
         },
         "fast_forge": {
           "name": "Fast Forge",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "forge_anywhere": {
           "name": "Forge Anywhere",
-          "robux": 549
+          "robux": 549,
+          "category": "Gamepass"
         },
         "sell_anywhere": {
           "name": "Sell Anywhere",
-          "robux": 349
+          "robux": 349,
+          "category": "Gamepass"
         },
         "supporter": {
           "name": "Supporter",
-          "robux": 379
+          "robux": 379,
+          "category": "Gamepass"
         },
         "better_forge": {
           "name": "Better Forge",
-          "robux": 449
+          "robux": 449,
+          "category": "Gamepass"
         },
         "double_storage": {
           "name": "Double Storage",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "1x_reroll": {
           "name": "1 Reroll",
-          "robux": 75
+          "robux": 75,
+          "category": "Gamepass"
         },
         "5x_reroll": {
           "name": "5 Rerolls",
-          "robux": 300
+          "robux": 300,
+          "category": "Gamepass"
         },
         "10x_reroll": {
           "name": "10 Rerolls",
-          "robux": 575
+          "robux": 575,
+          "category": "Gamepass"
         }
       }
     },
@@ -132,27 +161,33 @@
       "gamepasses": {
         "quick_roll": {
           "name": "Quick Roll",
-          "robux": 100
+          "robux": 100,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "Vip",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "starter_pack": {
           "name": "Starter Pack",
-          "robux": 49
+          "robux": 49,
+          "category": "Gamepass"
         },
         "invisible_gear": {
           "name": "Invisible Gear",
-          "robux": 80
+          "robux": 80,
+          "category": "Gamepass"
         },
         "vip_plus": {
           "name": "Vip+",
-          "robux": 350
+          "robux": 350,
+          "category": "Gamepass"
         },
         "merchant_teleporter": {
           "name": "Merchant Teleporter",
-          "robux": 40
+          "robux": 40,
+          "category": "Gamepass"
         }
       }
     },
@@ -161,43 +196,53 @@
       "gamepasses": {
         "rare_imports": {
           "name": "Rare Imports",
-          "robux": 189
+          "robux": 189,
+          "category": "Gamepass"
         },
         "2x_additional": {
           "name": "2x Additional Ownable Car",
-          "robux": 269
+          "robux": 269,
+          "category": "Gamepass"
         },
         "emergency_vehicle": {
           "name": "Emergency Vehicle",
-          "robux": 139
+          "robux": 139,
+          "category": "Gamepass"
         },
         "2x_paycheck": {
           "name": "2x Paycheck",
-          "robux": 399
+          "robux": 399,
+          "category": "Gamepass"
         },
         "retro_pass": {
           "name": "Retro Pass",
-          "robux": 169
+          "robux": 169,
+          "category": "Gamepass"
         },
         "advanced_modification": {
           "name": "Advanced Modification",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "luxury_car": {
           "name": "Luxury Car",
-          "robux": 259
+          "robux": 259,
+          "category": "Gamepass"
         },
         "luxury_house": {
           "name": "Luxury House",
-          "robux": 79
+          "robux": 79,
+          "category": "Gamepass"
         },
         "50_jobearning": {
           "name": "+50% Job Earning",
-          "robux": 399
+          "robux": 399,
+          "category": "Gamepass"
         },
         "additional_ownablecar": {
           "name": "Additional Ownable Car",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         }
       }
     },
@@ -206,39 +251,48 @@
       "gamepasses": {
         "sell_anywhere": {
           "name": "Sell Anywhere",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "crafter_luck": {
           "name": "Crafter luck",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "2x_shards": {
           "name": "2x Shards",
-          "robux": 599
+          "robux": 599,
+          "category": "Gamepass"
         },
         "more_ring_slots": {
           "name": "More Ring Slots",
-          "robux": 575
+          "robux": 575,
+          "category": "Gamepass"
         },
         "1000_shards": {
           "name": "1000 Shards",
-          "robux": 599
+          "robux": 599,
+          "category": "Gamepass"
         },
         "4000_shards": {
           "name": "4000 Shards",
-          "robux": 1699
+          "robux": 1699,
+          "category": "Gamepass"
         },
         "100k_money": {
           "name": "100K Money",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "500k_money": {
           "name": "500K Money",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "2m_money": {
           "name": "2M Money",
-          "robux": 999
+          "robux": 999,
+          "category": "Gamepass"
         }
       }
     },
@@ -247,59 +301,73 @@
       "gamepasses": {
         "early_access": {
           "name": "Early Access",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "private_server": {
           "name": "Private Server",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "extra_emote_slots": {
           "name": "Extra Emote Slots",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "kill_sound": {
           "name": "Kill Sound",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "Vip",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "esp": {
           "name": "Emote Second Page",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "awakening_outfit": {
           "name": "Awakening Outfit",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "1_emotes": {
           "name": "1 Emotes",
-          "robux": 25
+          "robux": 25,
+          "category": "Gamepass"
         },
         "5_emotes": {
           "name": "5 Emotes",
-          "robux": 125
+          "robux": 125,
+          "category": "Gamepass"
         },
         "10_emotes": {
           "name": "10 Emotes",
-          "robux": 250
+          "robux": 250,
+          "category": "Gamepass"
         },
         "1_spin": {
           "name": "1 Spin",
-          "robux": 79
+          "robux": 79,
+          "category": "Gamepass"
         },
         "3_spin": {
           "name": "3 Spin Cosmetics",
-          "robux": 237
+          "robux": 237,
+          "category": "Gamepass"
         },
         "5_spin": {
           "name": "5 Spin Cosmetics",
-          "robux": 395
+          "robux": 395,
+          "category": "Gamepass"
         },
         "eternal_seal": {
           "name": "Eternal Seal",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         }
       }
     },
@@ -308,27 +376,33 @@
       "gamepasses": {
         "blackhole": {
           "name": "Blackhole Slap",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "flying_carpet": {
           "name": "Flying Carpet",
-          "robux": 375
+          "robux": 375,
+          "category": "Gamepass"
         },
         "laser_gun": {
           "name": "Laser Gun",
-          "robux": 749
+          "robux": 749,
+          "category": "Gamepass"
         },
         "ban_hammer": {
           "name": "Ban Hammer",
-          "robux": 1499
+          "robux": 1499,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "VIP",
-          "robux": 399
+          "robux": 399,
+          "category": "Gamepass"
         },
         "2x_money": {
           "name": "2x Money",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         }
       }
     },
@@ -337,75 +411,93 @@
       "gamepasses": {
         "adminmode": {
           "name": "Admin Mode",
-          "robux": 7999
+          "robux": 7999,
+          "category": "Gamepass"
         },
         "vip_pass": {
           "name": "V.I.P Pass",
-          "robux": 300
+          "robux": 300,
+          "category": "Gamepass"
         },
         "custom_music": {
           "name": "Custom Music",
-          "robux": 110
+          "robux": 110,
+          "category": "Gamepass"
         },
         "meme_emote": {
           "name": "Meme Emotes",
-          "robux": 70
+          "robux": 70,
+          "category": "Gamepass"
         },
         "rezise_your_player": {
           "name": "Rezise Your Player",
-          "robux": 70
+          "robux": 70,
+          "category": "Gamepass"
         },
         "vigilante_bundle": {
           "name": "Vigilante Bundle",
-          "robux": 370
+          "robux": 370,
+          "category": "Gamepass"
         },
         "pirate_skin_bundle": {
           "name": "Pirate Skin Bundle",
-          "robux": 450
+          "robux": 450,
+          "category": "Gamepass"
         },
         "gatling_gun": {
           "name": "Gatling Gun",
-          "robux": 2599
+          "robux": 2599,
+          "category": "Gamepass"
         },
         "mercenary_base": {
           "name": "Mercenary Base",
-          "robux": 1800
+          "robux": 1800,
+          "category": "Gamepass"
         },
         "crook_boss": {
           "name": "Crook Boss",
-          "robux": 300
+          "robux": 300,
+          "category": "Gamepass"
         },
         "turret": {
           "name": "Turret",
-          "robux": 450
+          "robux": 450,
+          "category": "Gamepass"
         },
         "mortar": {
           "name": "Mortar",
-          "robux": 395
+          "robux": 395,
+          "category": "Gamepass"
         },
         "pursuit": {
           "name": "Pursuit",
-          "robux": 1500
+          "robux": 1500,
+          "category": "Gamepass"
         },
         "warden": {
           "name": "Warden",
-          "robux": 600
+          "robux": 600,
+          "category": "Gamepass"
         },
         "cowboy": {
           "name": "Cowboy",
-          "robux": 1800
+          "robux": 1800,
+          "category": "Gamepass"
         },
         "engineer": {
           "name": "Engineer",
-          "robux": 2250
+          "robux": 2250,
+          "category": "Gamepass"
         },
         "sledger": {
           "name": "Sledger",
-          "robux": 749
+          "robux": 749,
+          "category": "Gamepass"
         },
         "hacker": {
           "name": "Hacker",
-          "robux": 2999
+          "robux": 2999,
+          "category": "Gamepass"
         }
       }
     },
@@ -414,59 +506,73 @@
       "gamepasses": {
         "basement": {
           "name": "Basement",
-          "robux": 100
+          "robux": 100,
+          "category": "Gamepass"
         },
         "marvelous": {
           "name": "Marvelous",
-          "robux": 180
+          "robux": 180,
+          "category": "Gamepass"
         },
         "advanced_placing": {
           "name": "Advanced Placing",
-          "robux": 200
+          "robux": 200,
+          "category": "Gamepass"
         },
         "large_plot": {
           "name": "Large Plot",
-          "robux": 250
+          "robux": 250,
+          "category": "Gamepass"
         },
         "multiple_floors": {
           "name": "Multiple Floors",
-          "robux": 300
+          "robux": 300,
+          "category": "Gamepass"
         },
         "exellent_employee": {
           "name": "Exellent Employee",
-          "robux": 300
+          "robux": 300,
+          "category": "Gamepass"
         },
         "premium": {
           "name": "Premium",
-          "robux": 400
+          "robux": 400,
+          "category": "Gamepass"
         },
         "transform_plus": {
           "name": "Transform Plus",
-          "robux": 600
+          "robux": 600,
+          "category": "Gamepass"
         },
         "50_blockbux": {
           "name": "50 Blockbux",
-          "robux": 15
+          "robux": 15,
+          "category": "Gamepass"
         },
         "250_blockbux": {
           "name": "250 Blockbux",
-          "robux": 70
+          "robux": 70,
+          "category": "Gamepass"
         },
         "500_blockbux": {
           "name": "500 Blockbux",
-          "robux": 120
+          "robux": 120,
+          "category": "Gamepass"
         },
         "2500_blockbux": {
           "name": "2500 Blockbux",
-          "robux": 525
+          "robux": 525,
+          "category": "Gamepass"
         },
         "5000_blockbux": {
           "name": "5000 Blockbux",
-          "robux": 975
+          "robux": 975,
+          "category": "Gamepass"
         },
         "25000_blockbux": {
           "name": "25000 Blockbux",
-          "robux": 4500
+          "robux": 4500,
+          "category": "Gamepass"
         }
       }
     },
@@ -475,39 +581,48 @@
       "gamepasses": {
         "exclusive_rims": {
           "name": "Exclusive Rims",
-          "robux": 69
+          "robux": 69,
+          "category": "Gamepass"
         },
         "suspension_pro": {
           "name": "Suspension Pro",
-          "robux": 29
+          "robux": 29,
+          "category": "Gamepass"
         },
         "police_pass": {
           "name": "Police Pass",
-          "robux": 149
+          "robux": 149,
+          "category": "Gamepass"
         },
         "custom_plate_pass": {
           "name": "Custom Plate Pass",
-          "robux": 39
+          "robux": 39,
+          "category": "Gamepass"
         },
         "advance_paint_pass": {
           "name": "Advance Paint Pass",
-          "robux": 59
+          "robux": 59,
+          "category": "Gamepass"
         },
         "2x_paycheck": {
           "name": "2x Paycheck",
-          "robux": 499
+          "robux": 499,
+          "category": "Gamepass"
         },
         "luxury_pass": {
           "name": "Luxury Pass",
-          "robux": 119
+          "robux": 119,
+          "category": "Gamepass"
         },
         "dragspec_pass": {
           "name": "Dragspec Pass",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "boombox_radio": {
           "name": "Boombox Radio",
-          "robux": 19
+          "robux": 19,
+          "category": "Gamepass"
         }
       }
     },
@@ -516,67 +631,83 @@
       "gamepasses": {
         "x2_durability": {
           "name": "x2 Durability",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "x2_yen": {
           "name": "x2 Yen",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "x2_chakra": {
           "name": "x2 Chakra",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "faster_flight": {
           "name": "Faster Flight",
-          "robux": 149
+          "robux": 149,
+          "category": "Gamepass"
         },
         "x2_strength": {
           "name": "x2 Strength",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "VIP",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "x2_sword_skill": {
           "name": "x2 Sword Skill",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "x4_gacha_speed": {
           "name": "x4 Gacha Speed",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "no_limit": {
           "name": "No Limit",
-          "robux": 749
+          "robux": 749,
+          "category": "Gamepass"
         },
         "x2_speed": {
           "name": "x2 Speed",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "conceal_power": {
           "name": "Conceal Power",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         },
         "x2_agility": {
           "name": "x2 Agility",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "x2_chikara": {
           "name": "x2 Chikara",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "x2_tokens": {
           "name": "x2 Tokens",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "half_cooldown": {
           "name": "Half Cooldown",
-          "robux": 249
+          "robux": 249,
+          "category": "Gamepass"
         },
         "chakra_healing": {
           "name": "Chakra Healing",
-          "robux": 199
+          "robux": 199,
+          "category": "Gamepass"
         }
       }
     },
@@ -585,43 +716,53 @@
       "gamepasses": {
         "sell_anywhere": {
           "name": "Sell Anywhere",
-          "robux": 399
+          "robux": 399,
+          "category": "Gamepass"
         },
         "bobber_pack": {
           "name": "Bobber Pack",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "double_xp": {
           "name": "Double XP",
-          "robux": 239
+          "robux": 239,
+          "category": "Gamepass"
         },
         "appraisers_luck": {
           "name": "Appraisers Luck",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "supporter": {
           "name": "Supporter",
-          "robux": 169
+          "robux": 169,
+          "category": "Gamepass"
         },
         "emote_pack": {
           "name": "Emote Pack",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "radio": {
           "name": "Radio",
-          "robux": 149
+          "robux": 149,
+          "category": "Gamepass"
         },
         "appraise_anywhere": {
           "name": "Appraise Anywhere",
-          "robux": 499
+          "robux": 499,
+          "category": "Gamepass"
         },
         "spawn_boat_anywhere": {
           "name": "Spawn Boat Anywhere",
-          "robux": 299
+          "robux": 299,
+          "category": "Gamepass"
         },
         "enchant_anywhere": {
           "name": "Enchant Anywhere",
-          "robux": 239
+          "robux": 239,
+          "category": "Gamepass"
         }
       }
     },
@@ -630,55 +771,343 @@
       "gamepasses": {
         "search_and_rescue": {
           "name": "Search & Rescue",
-          "robux": 545
+          "robux": 545,
+          "category": "Gamepass"
         },
         "elite_pack": {
           "name": "Elite Pack",
-          "robux": 395
+          "robux": 395,
+          "category": "Gamepass"
         },
         "extra_stamina": {
           "name": "Extra Stamina",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "pro_pack": {
           "name": "Pro Pack",
-          "robux": 295
+          "robux": 295,
+          "category": "Gamepass"
         },
         "guide": {
           "name": "Guide",
-          "robux": 195
+          "robux": 195,
+          "category": "Gamepass"
         },
         "health_bottle": {
           "name": "Health Bottle",
-          "robux": 125
+          "robux": 125,
+          "category": "Gamepass"
         },
         "vip": {
           "name": "VIP",
-          "robux": 695
+          "robux": 695,
+          "category": "Gamepass"
         },
         "flags": {
           "name": "Flags",
-          "robux": 40
+          "robux": 40,
+          "category": "Gamepass"
         },
         "storm_goggles": {
           "name": "Storm Goggles",
-          "robux": 99
+          "robux": 99,
+          "category": "Gamepass"
         },
         "flashlight": {
           "name": "Flashlight",
-          "robux": 70
+          "robux": 70,
+          "category": "Gamepass"
         },
         "luxury_pack": {
           "name": "Luxury Pack",
-          "robux": 345
+          "robux": 345,
+          "category": "Gamepass"
         },
         "music_backpack": {
           "name": "Music Backpack",
-          "robux": 345
+          "robux": 345,
+          "category": "Gamepass"
         },
         "backpack_colours": {
           "name": "Backpack Colours",
-          "robux": 50
+          "robux": 50,
+          "category": "Gamepass"
+        }
+      }
+    },
+    "blox_fruits": {
+      "name": "Blox Fruits",
+      "gamepasses": {
+        "2x_mastery": {
+          "name": "2x Mastery",
+          "robux": 450,
+          "category": "Gamepass"
+        },
+        "2x_money": {
+          "name": "2x Money",
+          "robux": 450,
+          "category": "Gamepass"
+        },
+        "2x_drop_chance": {
+          "name": "2x Drop Chance",
+          "robux": 350,
+          "category": "Gamepass"
+        },
+        "fast_boat": {
+          "name": "Fast Boat",
+          "robux": 350,
+          "category": "Gamepass"
+        },
+        "fruit_storage": {
+          "name": "+1 Fruit Storage",
+          "robux": 400,
+          "category": "Gamepass"
+        },
+        "dark_blade": {
+          "name": "Dark Blade",
+          "robux": 1200,
+          "category": "Gamepass"
+        },
+        "fruit_notifier": {
+          "name": "Fruit Notifier",
+          "robux": 2700,
+          "category": "Gamepass"
+        },
+        "rocket": {
+          "name": "Rocket",
+          "robux": 50,
+          "category": "Permanent Fruits"
+        },
+        "spin": {
+          "name": "Spin",
+          "robux": 75,
+          "category": "Permanent Fruits"
+        },
+        "blade": {
+          "name": "Blade",
+          "robux": 100,
+          "category": "Permanent Fruits"
+        },
+        "spring": {
+          "name": "Spring",
+          "robux": 180,
+          "category": "Permanent Fruits"
+        },
+        "bomb": {
+          "name": "Bomb",
+          "robux": 220,
+          "category": "Permanent Fruits"
+        },
+        "smoke": {
+          "name": "Smoke",
+          "robux": 250,
+          "category": "Permanent Fruits"
+        },
+        "spike": {
+          "name": "Spike",
+          "robux": 380,
+          "category": "Permanent Fruits"
+        },
+        "flame": {
+          "name": "Flame",
+          "robux": 550,
+          "category": "Permanent Fruits"
+        },
+        "ice": {
+          "name": "Ice",
+          "robux": 750,
+          "category": "Permanent Fruits"
+        },
+        "sand": {
+          "name": "Sand",
+          "robux": 850,
+          "category": "Permanent Fruits"
+        },
+        "dark": {
+          "name": "Dark",
+          "robux": 950,
+          "category": "Permanent Fruits"
+        },
+        "eagle": {
+          "name": "Eagle",
+          "robux": 975,
+          "category": "Permanent Fruits"
+        },
+        "diamond": {
+          "name": "Diamond",
+          "robux": 1000,
+          "category": "Permanent Fruits"
+        },
+        "light": {
+          "name": "Light",
+          "robux": 1100,
+          "category": "Permanent Fruits"
+        },
+        "rubber": {
+          "name": "Rubber",
+          "robux": 1200,
+          "category": "Permanent Fruits"
+        },
+        "ghost": {
+          "name": "Ghost",
+          "robux": 1275,
+          "category": "Permanent Fruits"
+        },
+        "magma": {
+          "name": "Magma",
+          "robux": 1300,
+          "category": "Permanent Fruits"
+        },
+        "quake": {
+          "name": "Quake",
+          "robux": 1500,
+          "category": "Permanent Fruits"
+        },
+        "buddha": {
+          "name": "Buddha",
+          "robux": 1650,
+          "category": "Permanent Fruits"
+        },
+        "love": {
+          "name": "Love",
+          "robux": 1700,
+          "category": "Permanent Fruits"
+        },
+        "creation": {
+          "name": "Creation",
+          "robux": 1750,
+          "category": "Permanent Fruits"
+        },
+        "spider": {
+          "name": "Spider",
+          "robux": 1800,
+          "category": "Permanent Fruits"
+        },
+        "sound": {
+          "name": "Sound",
+          "robux": 1900,
+          "category": "Permanent Fruits"
+        },
+        "phoenix": {
+          "name": "Phoenix",
+          "robux": 2000,
+          "category": "Permanent Fruits"
+        },
+        "portal": {
+          "name": "Portal",
+          "robux": 2000,
+          "category": "Permanent Fruits"
+        },
+        "lightning": {
+          "name": "Lightning",
+          "robux": 2100,
+          "category": "Permanent Fruits"
+        },
+        "pain": {
+          "name": "Pain",
+          "robux": 2200,
+          "category": "Permanent Fruits"
+        },
+        "blizzard": {
+          "name": "Blizzard",
+          "robux": 2250,
+          "category": "Permanent Fruits"
+        },
+        "gravity": {
+          "name": "Gravity",
+          "robux": 2300,
+          "category": "Permanent Fruits"
+        },
+        "mammoth": {
+          "name": "Mammoth",
+          "robux": 2350,
+          "category": "Permanent Fruits"
+        },
+        "trex": {
+          "name": "T-Rex",
+          "robux": 2350,
+          "category": "Permanent Fruits"
+        },
+        "dough": {
+          "name": "Dough",
+          "robux": 2400,
+          "category": "Permanent Fruits"
+        },
+        "shadow": {
+          "name": "Shadow",
+          "robux": 2425,
+          "category": "Permanent Fruits"
+        },
+        "venom": {
+          "name": "Venom",
+          "robux": 2450,
+          "category": "Permanent Fruits"
+        },
+        "gas": {
+          "name": "Gas",
+          "robux": 2500,
+          "category": "Permanent Fruits"
+        },
+        "spirit": {
+          "name": "Spirit",
+          "robux": 2550,
+          "category": "Permanent Fruits"
+        },
+        "tiger": {
+          "name": "Tiger",
+          "robux": 3000,
+          "category": "Permanent Fruits"
+        },
+        "yeti": {
+          "name": "Yeti",
+          "robux": 3000,
+          "category": "Permanent Fruits"
+        },
+        "kitsune": {
+          "name": "Kitsune",
+          "robux": 4000,
+          "category": "Permanent Fruits"
+        },
+        "control": {
+          "name": "Control",
+          "robux": 4000,
+          "category": "Permanent Fruits"
+        },
+        "dragon": {
+          "name": "Dragon",
+          "robux": 5000,
+          "category": "Permanent Fruits"
+        },
+        "1_winter_box": {
+          "name": "1 Winter Fruit Box",
+          "robux": 199,
+          "category": "Lainnya"
+        },
+        "3_winter_box": {
+          "name": "3 Winter Fruit Box",
+          "robux": 575,
+          "category": "Lainnya"
+        },
+        "10_winter_box": {
+          "name": "10 Winter Fruit Box",
+          "robux": 1699,
+          "category": "Lainnya"
+        },
+        "fox_fruit_bundle": {
+          "name": "Fox Fruit Bundle",
+          "robux": 4999,
+          "category": "Lainnya"
+        },
+        "ultimate_bundle": {
+          "name": "Ultimate Bundle",
+          "robux": 9999,
+          "category": "Lainnya"
+        },
+        "holiday_bundle": {
+          "name": "Holiday Bundle",
+          "robux": 2999,
+          "category": "Lainnya"
         }
       }
     }

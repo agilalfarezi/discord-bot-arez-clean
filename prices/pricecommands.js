@@ -33,6 +33,21 @@ export const priceCommandsList = [
     .setName("price")
     .setDescription("Cek harga gamepass Roblox"),
 
+  //======================//
+  // UNTUK BUGDET //
+  //======================//
+  new SlashCommandBuilder()
+    .setName("budget_robux")
+    .setDescription(
+      "Untuk cek berapa Robux yang bisa kamu dapatkan dari budget yang kamu punya"
+    )
+    .addIntegerOption((opt) =>
+      opt
+        .setName("rupiah")
+        .setDescription("Budget dalam Rupiah")
+        .setRequired(true)
+    ),
+
   // =======================
   // PRICE ROBUX (CALCULATOR)
   // =======================
@@ -73,6 +88,12 @@ export const priceCommandsList = [
     .addIntegerOption((o) =>
       o.setName("robux").setDescription("Harga Robux").setRequired(true)
     )
+    .addStringOption((o) =>
+      o
+        .setName("category")
+        .setDescription("Kategori (Gamepass / Boost / Item / dll)")
+        .setRequired(true)
+    )
     .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
 
   new SlashCommandBuilder()
@@ -90,6 +111,60 @@ export const priceCommandsList = [
 export async function handlePriceInteraction(interaction) {
   const data = loadData();
 
+  // ================= BUDGET ROBUX =================
+  if (
+    interaction.isChatInputCommand() &&
+    interaction.commandName === "budget_robux"
+  ) {
+    const data = loadData();
+    const budget = interaction.options.getInteger("rupiah");
+    const rate = data.rate;
+
+    if (budget < rate) {
+      return interaction.reply({
+        content: "❌ Budget terlalu kecil.",
+        ephemeral: true,
+      });
+    }
+
+    // hitung maksimal gamepass
+    let gamepass = Math.floor(budget / rate);
+
+    // pastikan tidak lewat budget
+    while (gamepass * rate > budget) {
+      gamepass--;
+    }
+
+    const robux = Math.floor(gamepass * 0.7);
+    const total = gamepass * rate;
+
+    const embed = new EmbedBuilder()
+      .setTitle("🧮 Kalkulator Budget Robux 5 Hari")
+      .setColor("#00FF88")
+      .setDescription(
+        `Dengan budget **Rp ${budget.toLocaleString(
+          "id-ID"
+        )}**, kamu bisa membeli **${robux.toLocaleString("id-ID")} Robux**.`
+      )
+      .addFields({
+        name: `${robux.toLocaleString("id-ID")} Robux`,
+        value: `Rp ${total.toLocaleString("id-ID")}`,
+      })
+      .addFields({
+        name: "Nominal Set Gamepass",
+        value: `Buat gamepass dengan harga **${gamepass.toLocaleString(
+          "id-ID"
+        )} Robux**`,
+      })
+      .setFooter({
+        text: "Sudah termasuk pajak Roblox 30% • Robux masuk ±5 hari",
+      });
+
+    return interaction.reply({
+      embeds: [embed],
+      ephemeral: true,
+    });
+  }
   // ================= BUYER /price =================
   if (interaction.commandName === "price") {
     const games = Object.entries(data.games);
@@ -171,14 +246,28 @@ export async function handlePriceInteraction(interaction) {
       .setTitle(`💸 Price list - ${game.name}`)
       .setColor("#00FF88");
 
-    const list = Object.values(game.gamepasses)
-      .map((gp) => {
-        const harga = gp.robux * data.rate;
-        return `-  ${gp.name} : Rp ${harga.toLocaleString("id-ID")}`;
-      })
-      .join("\n");
+    const grouped = {};
 
-    embed.setDescription(list);
+    Object.values(game.gamepasses).forEach((gp) => {
+      const harga = gp.robux * data.rate;
+      const cat = gp.category || "Lainnya";
+
+      if (!grouped[cat]) grouped[cat] = [];
+
+      grouped[cat].push(
+        `- ${gp.name} (**${gp.robux} R$**) : **Rp ${harga.toLocaleString(
+          "id-ID"
+        )}**`
+      );
+    });
+
+    let desc = "";
+
+    for (const [cat, items] of Object.entries(grouped)) {
+      desc += `### 📂 ${cat}\n${items.join("\n")}\n\n`;
+    }
+
+    embed.setDescription(desc.trim());
 
     return interaction.update({ embeds: [embed], components: [] });
   }
@@ -199,6 +288,7 @@ export async function handlePriceInteraction(interaction) {
     const key = interaction.options.getString("key");
     const name = interaction.options.getString("name");
     const robux = interaction.options.getInteger("robux");
+    const category = interaction.options.getString("category");
 
     if (!data.games[gameKey]) {
       return interaction.reply({
@@ -207,10 +297,17 @@ export async function handlePriceInteraction(interaction) {
       });
     }
 
-    data.games[gameKey].gamepasses[key] = { name, robux };
+    data.games[gameKey].gamepasses[key] = {
+      name,
+      robux,
+      category,
+    };
+
     saveData(data);
 
-    return interaction.reply(`✅ Gamepass **${name}** ditambahkan`);
+    return interaction.reply(
+      `✅ **${name}** ditambahkan ke kategori **${category}**`
+    );
   }
 
   if (interaction.commandName === "price_set_rate") {
