@@ -19,10 +19,6 @@ import {
   handlePriceInteraction,
 } from "./prices/pricecommands.js";
 dotenv.config();
-import {
-  statusCommand,
-  handleStatusCommand,
-} from "./status_toko/status_toko.js";
 
 // ===================================================
 // KODE UNTUK BACKUP
@@ -234,23 +230,6 @@ client.on("messageCreate", async (message) => {
 
     message.reply({ embeds: [embed] });
   }
-  // 🔹 !status (BUYER)
-  if (message.content.toLowerCase() === "!status") {
-    const data = JSON.parse(
-      fs.readFileSync("./status_toko/status.json", "utf8")
-    );
-
-    const isOpen = data.status === "OPEN";
-
-    const embed = new EmbedBuilder()
-      .setTitle("🏪 STATUS TOKO")
-      .setDescription(
-        isOpen ? "🟢 **TOKO SEDANG BUKA**" : "🔴 **TOKO SEDANG TUTUP**"
-      )
-      .setColor(isOpen ? "#00FF00" : "#FF0000");
-
-    return message.reply({ embeds: [embed] });
-  }
 });
 
 // ===================================================
@@ -266,12 +245,6 @@ client.on("interactionCreate", async (interaction) => {
   // ⛔ STOP kalau bukan slash command
   // ===================================================
   if (!interaction.isChatInputCommand()) return;
-
-  // 🔹 HANDLE STATUS_TOKO
-  if (interaction.commandName === "status_toko") {
-    return handleStatusSlash(interaction);
-  }
-
   const transactions = loadTransactions();
 
   // ==================
