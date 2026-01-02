@@ -19,6 +19,10 @@ import {
   handlePriceInteraction,
 } from "./prices/pricecommands.js";
 dotenv.config();
+import {
+  statusCommand,
+  handleStatusCommand,
+} from "./status_toko/status_toko.js";
 
 // ===================================================
 // KODE UNTUK BACKUP
@@ -226,6 +230,10 @@ client.on("messageCreate", async (message) => {
       .setColor("#00FF88");
 
     message.reply({ embeds: [embed] });
+  }
+  // 🔹 !status (BUYER)
+  if (content === "!status") {
+    handleStatusCommand(message); // ⬅️ dari status_toko.js
   }
 });
 
